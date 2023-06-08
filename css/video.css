@@ -1,7 +1,13 @@
 .thumbnail {
     width: 100%;
     
-    border-radius: 14px;
+    border-radius: 10px;
+    transition: width 0.15s, border-radius 0.15s;
+}
+
+.thumbnail:hover {
+    width: 101%;
+    border-radius: 0;
 }
 
 a {
